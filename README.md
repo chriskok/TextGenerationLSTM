@@ -13,15 +13,25 @@ Generative model for text using LSTM recurrent neural networks in Python with Ke
 
 3. To use the complex (but slow) neural network:
 
-      * $python TextGenerationLTSM1.py
+      * run $python TextGenerationLTSM1.py
       
-      * $python TextGenerationLTSM2.py
+      * change the 'filename' variable (line 57) to the weight file containing the lowest lost; typically the last weight file.
+
+        eg: filename = "weights/weights-improvement-47-1.2219-bigger.hdf5"
+      
+      *  Then, run $python TextGenerationLTSM2.py
+      
+      
    
    To use the faster (but less accurate) version:  
    
-      * $python Step1.py  
+      * run $python TextGenerationSlow1.py
       
-      * $python Step2.py  
+      * change the 'filename' variable (line 46) to the weight file containing the lowest lost; typically the last weight file.
+
+        eg: filename = "weights/weights-improvement-47-1.2219-bigger.hdf5"
+      
+      *  Then, run $python TextGenerationSlow2.py
 
 ---
 
