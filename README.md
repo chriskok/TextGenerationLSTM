@@ -32,6 +32,10 @@ Generative model for text using LSTM recurrent neural networks in Python with Ke
         eg: filename = "weights/weights-improvement-47-1.2219-bigger.hdf5" (or "weights\we..." on Windows, also change line 46 in Fast1)
       
       *  Then, run $python TextGenerationFast2.py
+      
+4. If you want to change the source, change lines at the top of all the files: 
+
+      filename = "YOURTEXTHERE.txt"
 
 ---
 
@@ -39,7 +43,11 @@ Generative model for text using LSTM recurrent neural networks in Python with Ke
 
 Full credits for initial project to: 
 
-https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
+  https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
+
+All text files downloaded from Project Gutenberg:
+
+  http://www.gutenberg.org/
 
 ---
 
