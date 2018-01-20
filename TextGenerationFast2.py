@@ -8,8 +8,8 @@ from keras.layers import LSTM
 from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 # load ascii text and covert to lowercase
-filename = "oz.txt"
-raw_text = open(filename).read()
+filename = "creepy.txt"
+raw_text = open(filename, encoding="utf-8").read()
 raw_text = raw_text.lower()
 # create mapping of unique chars to integers, and a reverse mapping
 chars = sorted(list(set(raw_text)))
