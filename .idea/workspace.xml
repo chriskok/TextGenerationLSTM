@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="042426c9-b3fd-4c5d-8ca6-ccba43f9a05e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Step1.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Step2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Step3.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TextGenerationLTSM.py" afterPath="$PROJECT_DIR$/TextGenerationLTSM.py" />
+      <change beforePath="$PROJECT_DIR$/Step3.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/TextGenerationLTSM.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TextGenerationLTSM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TextGenerationLTSM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-              <folding>
-                <element signature="e#45#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Step1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Step1.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,25 +26,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Step2.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Step2.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Step2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
               <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding>
                 <element signature="e#38#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Step3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Step3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-              <folding>
-                <element signature="e#63#75#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
@@ -179,7 +152,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -215,9 +188,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="951">
           <caret line="69" column="17" lean-forward="false" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-          <folding>
-            <element signature="e#45#55#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -231,22 +202,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Step3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Step2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="32" column="6" lean-forward="false" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
             <element signature="e#38#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Step3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-          <folding>
-            <element signature="e#63#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
