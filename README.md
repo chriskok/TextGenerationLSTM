@@ -1,4 +1,4 @@
-# Text Generation using LTSM
+# Text Generation using LSTM
 **Version 1.0**
 
 Generative model for text using LSTM recurrent neural networks in Python with Keras
@@ -41,7 +41,7 @@ Generative model for text using LSTM recurrent neural networks in Python with Ke
 
 ## Screenshots
 
-With more LTSM nodes, 20 epoch:
+With more LSTM nodes, 20 epoch:
 
 * we see that words are more English-like, complete whole terms albeit repeated due to the way we feed the seed
 
@@ -52,7 +52,7 @@ With more LTSM nodes, 20 epoch:
 ![ltsm3](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/ltsm3.JPG)
 
 
-With less LTSM nodes, 20 epoch:
+With less LSTM nodes, 20 epoch:
 
 ![fast1](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/fast1.JPG)
 
