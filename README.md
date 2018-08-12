@@ -1,4 +1,4 @@
-# Text Generation using LTSM
+# Text Generation using LSTM
 **Version 1.0**
 
 Generative model for text using LSTM recurrent neural networks in Python with Keras
@@ -39,14 +39,39 @@ Generative model for text using LSTM recurrent neural networks in Python with Ke
 
 ---
 
+## Screenshots
+
+With more LSTM nodes, 20 epoch:
+
+* we see that words are more English-like, complete whole terms albeit repeated due to the way we feed the seed
+
+![ltsm1](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/ltsm1.JPG)
+
+![ltsm2](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/ltsm2.JPG)
+
+![ltsm3](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/ltsm3.JPG)
+
+
+With less LSTM nodes, 20 epoch:
+
+![fast1](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/fast1.JPG)
+
+![fast2](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/fast2.JPG)
+
+![fast3](https://github.com/chriskok/TextGenerationLTSM/blob/master/screenshots/fast3.JPG)
+
+---
+
 ## Credits
 
 Full credits for initial project to: 
 
   https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/
 
-All text files downloaded from Project Gutenberg:
+All text files downloaded from CreepyPasta and Project Gutenberg:
 
+  https://www.creepypasta.com/
+  
   http://www.gutenberg.org/
 
 ---

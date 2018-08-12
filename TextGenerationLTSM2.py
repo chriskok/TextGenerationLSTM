@@ -9,7 +9,7 @@ from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 
 # load ascii text and covert to lowercase
-filename = "creepy.txt"
+filename = "wonderland.txt"
 raw_text = open(filename, encoding="utf-8").read()
 raw_text = raw_text.lower()
 
@@ -54,7 +54,7 @@ model.add(Dropout(0.2))
 model.add(Dense(y.shape[1], activation='softmax'))
 
 # load the network weights
-filename = "weights\weights-improvement-22-1.6935-bigger.hdf5"
+filename = "weights\weights-improvement-01-2.7753-bigger.hdf5"
 model.load_weights(filename)
 model.compile(loss='categorical_crossentropy', optimizer='adam')
 
